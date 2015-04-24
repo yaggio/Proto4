@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="9" height="9" tilewidth="36" tileheight="36">
- <tileset firstgid="1" name="terrarin" tilewidth="36" tileheight="36">
-  <image source="white_box.png" width="36" height="36"/>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="16" tilewidth="20" tileheight="20">
+ <tileset firstgid="1" name="white_box" tilewidth="20" tileheight="20">
+  <image source="white_box.png" width="20" height="20"/>
  </tileset>
- <tileset firstgid="2" name="object" tilewidth="36" tileheight="36">
-  <image source="object.png" width="36" height="36"/>
- </tileset>
- <layer name="Terrain" width="9" height="9">
+ <layer name="terrain" width="24" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYETDTEiYAY8cshguOXxqsGF0fbjMGUwYAEY0AGU=
+   eJxjZGBgYBzFo3gUj+JRPOIwAIk8AYE=
   </data>
  </layer>
- <objectgroup name=" Object"/>
 </map>

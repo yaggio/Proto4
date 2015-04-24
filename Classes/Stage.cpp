@@ -28,7 +28,7 @@ bool Stage::init()
   auto map = TMXTiledMap::create("map/stage.tmx");
   this->addChild(map);
   this->setTiledMap(map);
-  
+ 
   this->scheduleUpdate();
   
   return true;

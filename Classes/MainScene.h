@@ -11,6 +11,7 @@
 
 #include "cocos2d.h"
 #include "Stage.h"
+#include "Platoon.h"
 
 class MainScene : public cocos2d::Layer
 {
@@ -24,6 +25,8 @@ public:
   CREATE_FUNC(MainScene);
   // ステージ
   CC_SYNTHESIZE_RETAIN(Stage *, _stage, Stage);
+  // 小隊
+  CC_SYNTHESIZE_RETAIN(Platoon *, _platoon, Platoon);
 };
 
 #endif /* defined(__Proto4__MainScene__) */

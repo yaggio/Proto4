@@ -27,6 +27,11 @@ bool MainScene::init()
   this->addChild(stage);
   this->setStage(stage);
   
+  auto platoon = Platoon::create();
+  platoon->setPosition(Vec2(40, 160));
+  this->addChild(platoon);
+  this->setPlatoon(platoon);
+  
   this->scheduleUpdate();
   return true;
 }
@@ -34,12 +39,16 @@ bool MainScene::init()
 
 MainScene::MainScene()
 : _stage(nullptr)
+, _platoon(nullptr)
 {
 }
 MainScene::~MainScene()
 {
   CC_SAFE_RELEASE_NULL(_stage);
+  CC_SAFE_RELEASE_NULL(_platoon);
 }
 void MainScene::update(float dt)
 {
+  auto pos = _platoon->getPosition();
+  _platoon->setPosition(Vec2(pos.x + 1, pos.y));
 }

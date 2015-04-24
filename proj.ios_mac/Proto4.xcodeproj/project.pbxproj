@@ -67,6 +67,7 @@
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		F80A0F801ADE96FA006455E1 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F80A0F7E1ADE96FA006455E1 /* MainScene.cpp */; };
+		F893098B1AE67F3F00718284 /* Platoon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89309891AE67F3F00718284 /* Platoon.cpp */; };
 		F8E633AE1ADFE5A3006425C3 /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E633AC1ADFE5A3006425C3 /* Stage.cpp */; };
 		F8E633B01ADFEAA1006425C3 /* map in Resources */ = {isa = PBXBuildFile; fileRef = F8E633AF1ADFEAA1006425C3 /* map */; };
 /* End PBXBuildFile section */
@@ -161,6 +162,8 @@
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		F80A0F7E1ADE96FA006455E1 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		F80A0F7F1ADE96FA006455E1 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		F89309891AE67F3F00718284 /* Platoon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Platoon.cpp; sourceTree = "<group>"; };
+		F893098A1AE67F3F00718284 /* Platoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platoon.h; sourceTree = "<group>"; };
 		F8E633AC1ADFE5A3006425C3 /* Stage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stage.cpp; sourceTree = "<group>"; };
 		F8E633AD1ADFE5A3006425C3 /* Stage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
 		F8E633AF1ADFEAA1006425C3 /* map */ = {isa = PBXFileReference; lastKnownFileType = folder; path = map; sourceTree = "<group>"; };
@@ -300,6 +303,8 @@
 				F80A0F7F1ADE96FA006455E1 /* MainScene.h */,
 				F8E633AC1ADFE5A3006425C3 /* Stage.cpp */,
 				F8E633AD1ADFE5A3006425C3 /* Stage.h */,
+				F89309891AE67F3F00718284 /* Platoon.cpp */,
+				F893098A1AE67F3F00718284 /* Platoon.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -500,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				F893098B1AE67F3F00718284 /* Platoon.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
